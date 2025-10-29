@@ -7,6 +7,9 @@ public class HashSetExmple{
         HashSet hs = new HashSet();
         hs.add("Nitesh");
         hs.add(23);
+        hs.add(23);
+        hs.add(23);
+        hs.add(23);
         hs.add(56.1);
 
          System.out.println("hashset is :" +hs);

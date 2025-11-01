@@ -11,6 +11,18 @@ public class StackExmple{
         st.push('#');
 
         System.out.println("stack is : " +st);
+
+        st.pop();
+        System.out.println("after pop stack is: " +st);
+        
+        st.remove(1);
+        System.out.println("after is : ");
+
+        System.out.println("capacity of stack :" +st.capacity());
+
+        st.peek();
+        System.out.println("after peek stack :" + st.peek());
+        System.out.println("after search :" +(true));
         
     }
 }
